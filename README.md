@@ -1,5 +1,5 @@
-# Segmentação de Usuários / Customer Segmentation
-## Using RFM Model and K-means Clustering
+# Segmentação de Usuários
+## Usando RFM Model and K-means Clustering
 
 ### Sobre o Projeto
 
@@ -55,3 +55,64 @@ Após a análise RFM, o K-means Clustering é utilizado para agrupar os clientes
 ### Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+------------
+
+# Customer Segmentation
+## Using RFM Model and K-means Clustering
+
+### About the Project
+
+The project aims to identify customer profiles of Everything Plus, an online home goods store. Through the analysis of transaction history, customer segmentation will be performed to understand their behaviors and preferences. As a result, strategic guidelines will be developed to guide the marketing team in creating more targeted and effective campaigns.
+
+### Data
+
+- **Source**: `ecommerce_dataset_us.csv`  
+- **Composition**:
+  - `InvoiceNo`: order identifier  
+  - `StockCode`: item identifier  
+  - `Description`: item name  
+  - `Quantity`: quantity of items  
+  - `InvoiceDate`: order date  
+  - `UnitPrice`: price per item  
+  - `CustomerID`: customer identifier
+- **Period**: 2018-11-29 to 2019-12-07 (YYYY-MM-DD)
+
+### Method
+
+Customer segmentation will be performed using the **RFM (Recency, Frequency, Monetary)** model followed by **K-means Clustering**. The RFM segmentation helps categorize customers based on three criteria:
+- **Recency**: When did the customer make their last purchase?
+- **Frequency**: How often does the customer purchase?
+- **Monetary**: How much does the customer spend?
+
+After the RFM analysis, K-means Clustering is used to group customers into distinct segments.
+
+### Work Steps
+
+1. **Exploratory Data Analysis**: Data inspection and cleaning, pattern and outlier identification.
+2. **Customer Segmentation**: Applying the RFM model to segment customers.
+3. **Hypothesis Testing**: Verifying hypotheses about customer behavior.
+4. **Development of Marketing Guidelines**: Creating marketing strategies based on the identified segments.
+
+### Tools Used
+
+- **Python 3.x**
+- **Jupyter Notebook**
+- **Pandas**: Data manipulation and analysis
+- **Matplotlib**: Data visualization
+- **Seaborn**: Data visualization
+- **Scikit-learn**: Modeling and clustering (K-means, MinMaxScaler)
+- **SciPy**: Statistics and hypothesis testing
+
+### How to Run the Project
+
+1. Clone the repository;
+2. Navigate to the project directory;
+3. Open the project in your preferred IDE;
+4. Install the dependencies;
+5. Run the main script.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
+
