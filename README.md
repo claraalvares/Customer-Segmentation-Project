@@ -1,5 +1,5 @@
 # Segmentação de Usuários / Customer Segmentation
-## Using RFM Model and K-means Clustering**
+## Using RFM Model and K-means Clustering
 
 ### Sobre o Projeto
 
