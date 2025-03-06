@@ -3,7 +3,7 @@
 
 ### Sobre o Projeto
 
-O projeto tem como objetivo identificar os perfis de consumidores da Everything Plus, uma loja online de utensílios domésticos. A partir da análise do histórico de transações, será realizada a segmentação dos clientes, buscando entender seus comportamentos e preferências. Como resultado, serão desenvolvidas diretrizes estratégicas para orientar a equipe de marketing na criação de campanhas mais direcionadas e eficazes.
+O projeto tem como objetivo identificar os perfis de consumidores de um e-commerce. A partir da análise do histórico de transações, foi realizada a segmentação dos clientes, buscando entender seus comportamentos e preferências. O produto foi o desenvolvimento de diretrizes estratégicas para orientar a equipe de marketing na criação de campanhas mais direcionadas e eficazes.
 
 ### Dados
 
@@ -20,12 +20,12 @@ O projeto tem como objetivo identificar os perfis de consumidores da Everything 
 
 ### Método
 
-A segmentação de clientes será realizada utilizando o modelo **RFM (Recency, Frequency, Monetary)** seguido pela aplicação de **K-means Clustering**. A segmentação RFM ajuda a categorizar os clientes com base em três critérios:
+A segmentação de clientes foi realizada utilizando o modelo **RFM (Recency, Frequency, Monetary)** seguido pela aplicação de **K-means Clustering**. A segmentação RFM ajuda a categorizar os clientes com base em três critérios:
 - **Recency** (Recência): Quando o cliente fez a última compra?
 - **Frequency** (Frequência): Com que frequência o cliente compra?
 - **Monetary** (Monetário): Quanto o cliente gasta?
 
-Após a análise RFM, o K-means Clustering é utilizado para agrupar os clientes em segmentos distintos.
+Após a análise RFM, o K-means Clustering foi utilizado para agrupar os clientes em segmentos distintos.
 
 ### Etapas de Trabalho
 
@@ -63,7 +63,7 @@ Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](
 
 ### About the Project
 
-The project aims to identify customer profiles of Everything Plus, an online home goods store. Through the analysis of transaction history, customer segmentation will be performed to understand their behaviors and preferences. As a result, strategic guidelines will be developed to guide the marketing team in creating more targeted and effective campaigns.
+The project aims to identify consumer profiles in an e-commerce platform. Based on transaction history analysis, customer segmentation was performed to understand their behaviors and preferences. The outcome was the development of strategic guidelines to help the marketing team create more targeted and effective campaigns.
 
 ### Data
 
@@ -80,12 +80,12 @@ The project aims to identify customer profiles of Everything Plus, an online hom
 
 ### Method
 
-Customer segmentation will be performed using the **RFM (Recency, Frequency, Monetary)** model followed by **K-means Clustering**. The RFM segmentation helps categorize customers based on three criteria:
+Customer segmentation was performed using the RFM (Recency, Frequency, Monetary) model, followed by the application of K-means Clustering. The RFM segmentation helps categorize customers based on three criteria:
 - **Recency**: When did the customer make their last purchase?
 - **Frequency**: How often does the customer purchase?
 - **Monetary**: How much does the customer spend?
 
-After the RFM analysis, K-means Clustering is used to group customers into distinct segments.
+After the RFM analysis, K-means Clustering was used to group customers into distinct segments.
 
 ### Work Steps
 
